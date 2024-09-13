@@ -20,6 +20,8 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/task-3">Task-3</RouterLink>
         <RouterLink to="/task-4">Task-4</RouterLink>
         <RouterLink to="/task-5">Task-5</RouterLink>
+        <RouterLink to="/task-6">Task-6</RouterLink>
+        <RouterLink to="/task-7">Task-7</RouterLink>
       </nav>
     </div>
   </header>

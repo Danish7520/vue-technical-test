@@ -5,6 +5,8 @@ import Task2 from '../views/Task2.vue'
 import Task3 from '../views/Task3.vue'
 import Task4 from '../views/Task4.vue'
 import Task5 from '../views/Task5.vue'
+import Task6 from '../views/Task6.vue'
+import Task7 from '../views/Task7.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -39,6 +41,16 @@ const router = createRouter({
       path: '/task-5',
       name: 'task5',
       component: Task5
+    },
+    {
+      path: '/task-6',
+      name: 'task6',
+      component: Task6
+    },
+    {
+      path: '/task-7',
+      name: 'task7',
+      component: Task7
     }
   ]
 })
