@@ -16,6 +16,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@types/react-router": "^5.1.20",
     "bootstrap": "^5.3.3",
     "bootstrap-vue": "^2.23.1",
     "pinia": "^2.1.7",
