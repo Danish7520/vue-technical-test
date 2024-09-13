@@ -1,53 +1,44 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import Task1 from '../views/Task1.vue'
+import Task2 from '../views/Task2.vue'
+import Task3 from '../views/Task3.vue'
+import Task4 from '../views/Task4.vue'
+import Task5 from '../views/Task5.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
+
       path: '/',
       name: 'home',
       component: HomeView
     },
     {
       path: '/task-1',
-      name: 'task-1',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/Task-1.vue')
+      name: 'task1',
+      component: Task1
     },
     {
       path: '/task-2',
-      name: 'task-2',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/Task-2.vue')
+      name: 'task2',
+      component: Task2
     },
     {
       path: '/task-3',
-      name: 'task-3',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/Task-3.vue')
+      name: 'task3',
+      component: Task3
     },
     {
       path: '/task-4',
-      name: 'task-4',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/Task-4.vue')
+      name: 'task4',
+      component: Task4
     },
     {
       path: '/task-5',
-      name: 'task-5',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/Task-5.vue')
+      name: 'task5',
+      component: Task5
     }
   ]
 })

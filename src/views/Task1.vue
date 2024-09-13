@@ -35,7 +35,7 @@ export default {
   border-radius: 5px;
   list-style: none;
   color: black;
-  font-family: fantasy;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
 }
 
